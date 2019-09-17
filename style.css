@@ -36,6 +36,7 @@
         align-items: center;
         justify-content: space-between;
         background-color: #000000;
+        color:white; /*Husk at color og background-color er to forskellige ting*/
         
         padding-block-start: 0rem;
        	
@@ -47,11 +48,11 @@
         list-style:none; 
         display: flex;
         flex-wrap: wrap;
-        flex: end; /*Hel sort bar - men menuen er placeret forkert*/
+        flex: end; /*Hel sort bar - men menuen er placeret forkert*/ 
     }
     
     nav a{
-        padding: 17px 25px;
+        padding: 17px 25px;/*Padding*/
       color:white;
       text-decoration: none;
         display: block;
