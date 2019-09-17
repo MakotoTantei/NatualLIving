@@ -36,7 +36,7 @@
         align-items: center;
         justify-content: space-between;
         background-color: #000000;
-        float: right; /*Flyttede navigationen til højre nu mangler resten af baren*/
+        
         padding-block-start: 0rem;
        	
     }
@@ -47,7 +47,7 @@
         list-style:none; 
         display: flex;
         flex-wrap: wrap;
-        
+        flex: end; /*Hel sort bar - men menuen er placeret forkert*/
     }
     
     nav a{
