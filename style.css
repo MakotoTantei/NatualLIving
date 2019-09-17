@@ -36,13 +36,14 @@
         align-items: center;
         justify-content: space-between;
         background-color: #000000;
+        float: right; /*Flyttede navigationen til højre nu mangler resten af baren*/
        	
     }
-    
+    /*Flyt navigation to højre side*/
     nav ul{
         margin: 0;
         padding: 0;
-        list-style:none; /*Alt forsvandt*/
+        list-style:none; 
         display: flex;
         flex-wrap: wrap;
         
