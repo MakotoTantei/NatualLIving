@@ -29,18 +29,31 @@
   body {
         box-sizing: border-box; 
         background: no-repeat;
-    
         
-    }
+        }
+        
+
+    
    section.description1{
        display: flex;
        align-items: flex-start;
        justify-content: flex-start; /*Skal lave en til block til den anden del af siden*/
 
    }
-     
+     .hus {
+        float: left;
+        width: 33.33%;
+        padding: 5px;
+      } /*To huse på linie nu.*/
+      
+      /* Clear floats after image containers */
+      .husene::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
     nav{
-        display: flex; /* Lav de 2 <ul> til flex-items */
+        display: flex; /* Laver de 2 <ul> til flex-items */
         align-items: center;
         justify-content: space-between;
         background-color: #000000;
