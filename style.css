@@ -44,9 +44,7 @@ position: relative;
 font-size: 1.6rem;
 }
 
-.btn:hover{
-    transform: translateY(-3px); /* minus bruges til at flytte ting 'op' fra siden
-    box-shadow: 0 1rem 2rem rgba(255, 253, 253, 0.2);*/
+*/
 
 
     
@@ -55,6 +53,12 @@ font-size: 1.6rem;
        align-items: flex-start;
        justify-content: flex-start; /*Skal lave en til block til den anden del af siden*/
 
+   }
+
+   section.description2{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start; /*Skal lave en til block til den anden del af siden*/
    }
      .hus {
         float: left; /*ville prøve det her https://www.w3schools.com/howto/howto_css_product_card.asp*/
