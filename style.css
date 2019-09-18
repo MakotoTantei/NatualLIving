@@ -105,11 +105,13 @@ font-size: 1.6rem;
     footer{
         background-color: #000000;
         text-emphasis-color: gray;
+        
     }
 
     footer li a{
       text-decoration: none;
       color: darkgray;
+      margin: 3px;
     }
 
     /*top nav og right nav. Den ene har to links den anden et. Jeg er kan ikke det her overhovedet*/
