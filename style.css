@@ -31,6 +31,23 @@
         
         }
         
+       /*.btn:link,
+.btn:visited {
+
+text-transform: uppercase;
+text-decoration: none;
+padding: 1.5rem 4rem;
+display: inline-block;
+border-radius: 10rem;
+transition: all .2;
+position: relative;
+font-size: 1.6rem;
+}
+
+.btn:hover{
+    transform: translateY(-3px); /* minus bruges til at flytte ting 'op' fra siden
+    box-shadow: 0 1rem 2rem rgba(255, 253, 253, 0.2);*/
+
 
     
    section.description1{
@@ -47,6 +64,7 @@
       
       /* Clear floats after image containers */
       .husene::after {
+
         content: "";
         clear: both;
         display: table;
