@@ -1,6 +1,7 @@
 .header {
     /*background: url(/img/2010-hus-i-trae.jpg);
-    background-size: inherit; Hvor er fejlen? Der er hele tiden mere end kun et billede! Billedet var sat både i html og css.*/
+    background-size: inherit; Hvor er fejlen? Der er hele tiden mere end kun et billede! Billedet var sat både i html og css.
+    Mangler at sætte billederne i rette størrelse*/
     
     display: inline-block !important;
     background: 'no-repeat';
@@ -19,7 +20,7 @@
     padding: 3px; 
 
        
-       } /*Hvorfor virker det ikke??*/
+       } 
   
   html {
     font-size: 62.5%;
@@ -55,10 +56,15 @@ font-size: 1.6rem;
 
    }
 
-   section.description2{
+   section.description2-f{
     display: flex;
     align-items: flex-end;
-    justify-content: flex-start; /*Skal lave en til block til den anden del af siden*/
+    justify-content: flex-start; 
+   }
+
+   section.description2-l{
+     display: flex;
+     align-items: flex-start;
    }
      .hus {
         float: left; /*ville prøve det her https://www.w3schools.com/howto/howto_css_product_card.asp*/
