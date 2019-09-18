@@ -65,11 +65,13 @@ font-size: 1.6rem;
    section.description2-l{
      display: flex;
      align-items: flex-start;
-   }
+     justify-content: flex-end;
+   } /* Det virkede ikke efter planen*/
      .hus {
         float: left; /*ville prøve det her https://www.w3schools.com/howto/howto_css_product_card.asp*/
         width: 33.33%;
         padding: 5px;
+        flex-direction: row;
       } /*To huse på linie nu.*/
       
       /* Clear floats after image containers */
@@ -118,7 +120,7 @@ font-size: 1.6rem;
       text-decoration: none;
       color: darkgray;
       margin: 3px;
-    }
+    } /*alle links er stylede det samme, og under hinanden*/
 
     /*top nav og right nav. Den ene har to links den anden et. Jeg er kan ikke det her overhovedet*/
 /*sæt den til rette størrelse*/
