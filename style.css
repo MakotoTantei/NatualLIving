@@ -114,7 +114,17 @@ font-size: 1.6rem;
         background-color: #000000;
         text-emphasis-color: gray;
         
-    }
+   
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+      color: darkgray;
+      margin: 3px;
+   }  
+        
+    
 
     footer li a{
       text-decoration: none;
