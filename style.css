@@ -54,6 +54,7 @@
       }
     nav{
         display: flex; /* Laver de 2 <ul> til flex-items */
+        flex-wrap: wrap;
         align-items: center;
         justify-content: space-between;
         background-color: #000000;
